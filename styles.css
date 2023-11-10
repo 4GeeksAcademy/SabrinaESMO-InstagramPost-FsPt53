@@ -1,16 +1,19 @@
 p{
     font-family: 'Roboto', sans-serif;
+    font-size: 12px;
 }
 
 div.post{
     background-color: white;
-    width: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    width: 400px;
 }
 
 body{
     background-color: black;
-    padding: 50px;
+    padding: 10px;
+    width: 450px;
+    margin: auto;
 }
 
 section.post-img img{
@@ -35,7 +38,7 @@ div.post-header-left img{
 
 div.post-header-right img{
     width: 10px;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 section.post-body{
@@ -44,9 +47,9 @@ section.post-body{
 }
 
 div.icons img{
-    width: 30px;
-    height: 30px;
-    margin-top: 15px;
+    width: 25px;
+    height: 25px;
+    margin-top: 2px;
 }
 
 div.icons{
@@ -58,5 +61,9 @@ div.icons-left{
 }
 
 div.icons-right{
-    margin-right: 15px;
+    margin-right: 20px;
+}
+
+div.text-body{
+    margin-right: 20px;
 }
